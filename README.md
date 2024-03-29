@@ -33,5 +33,5 @@ Press "New" when u click on the created db. Then create new table: write name an
 -> [sound.php](./sound.php) - add data to db.
 
 #### 12. LED scripts
--> [get.php](./get.php) - get status of LED from db.
+-> [get.php](./get.php) - get status of LED from db.\
 -> [update.php](./update.php) - after change status update it in db.
