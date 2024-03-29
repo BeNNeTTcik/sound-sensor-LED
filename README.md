@@ -1,10 +1,10 @@
 ### sound-sensor-LED
 Sound Sensor and LED connected with db (phpmyadmin) via XAMPP. Sound sensor sends data to db. LED is control by db. I used PHP scripts like [get.php](./get.php), [update.php](./update.php), [sound.php](./sound.php) and preaper webpage [index.php](./index.php), [LED.php](./LED.php) with [style.css](./style.css). Core board is ESP8266, which is connected with local WiFi to communicate with local server on PC (XAMPP). Data is sended via HTTP POST method.
 
-####1. XAMPP download: ####
+####1. XAMPP download: 
 *[XAMPP](https://www.apachefriends.org/pl/index.html)*
 
-####2. Start XAMPP:####
+####2. Start XAMPP:
 ![image](https://github.com/BeNNeTTcik/sound-sensor-LED/assets/42866234/e98acf87-f9cf-4a61-a265-46753acf8a30)
 
 ####4. Login to PHPMyAdmin:####
