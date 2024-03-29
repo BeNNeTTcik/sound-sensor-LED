@@ -1,5 +1,5 @@
 ### sound-sensor-LED
-Sound Sensor and LED connected with db (phpmyadmin) via XAMPP. Sound sensor sends data to db. LED is control by db. I used PHP scripts like [get.php](#get.php), [update.php](#update.php), [sound.php](#sound.php) and preaper webpage [index.php](#inedx.php), [LED.php](#LED.php) with [style.css](#style.css). Core board is ESP8266, which is connected with local WiFi to communicate with local server on PC (XAMPP). Data is sended via HTTP POST method.
+Sound Sensor and LED connected with db (phpmyadmin) via XAMPP. Sound sensor sends data to db. LED is control by db. I used PHP scripts like [get.php](./get.php), [update.php](./update.php), [sound.php](./sound.php) and preaper webpage [index.php](./inedx.php), [LED.php](./LED.php) with [style.css](./style.css). Core board is ESP8266, which is connected with local WiFi to communicate with local server on PC (XAMPP). Data is sended via HTTP POST method.
 
 1. XAMPP download: 
 *[XAMPP](https://www.apachefriends.org/pl/index.html)*
@@ -25,9 +25,9 @@ Press "New" when u click on created db. Then Create new table. Write name and wr
 9. Structure for LED:
 ![image](https://github.com/BeNNeTTcik/sound-sensor-LED/assets/42866234/8376b60b-7176-4558-a8dc-fdbc2c906b40)
 
-10. I use Aruduino APP to code ESP8266: [esp8266.ino](#esp8266/esp8266.ino)
+10. I use Aruduino APP to code ESP8266: [esp8266.ino](./esp8266/esp8266.ino)
 
-11. Sound sensor script -> [sound.php](#sound.php) - add data to db.
+11. Sound sensor script -> [sound.php](./sound.php) - add data to db.
 
-12. LED scripts -> [get.php](#get.php) - get status of LED from db
-                -> [update.php](#update.php) - after change status update it in db.
+12. LED scripts -> [get.php](./get.php) - get status of LED from db
+                -> [update.php](./update.php) - after change status update it in db.
